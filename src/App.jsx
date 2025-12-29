@@ -19,17 +19,36 @@ function App() {
 
       <main className="pt-[90px]">
         <Routes>
-          <Route path="/" element={<><Home /><About /><Service /><Contact /><Appointment /></>} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+                <About />
+                <Service />
+                <Contact />
+                <Appointment />
+              </>
+            }
+          />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/massage/:slug" element={<Massage />} />
           <Route path="/spa/:slug" element={<Spa />} />
           <Route path="/services" element={<Service />} />
-
         </Routes>
       </main>
-      <Footer/>
+      <a
+        href="https://wa.me/919217068916 "
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-5 right-5 z-50 flex items-center justify-center w-14 h-14 rounded-full text-white md:text-3xl text-3xl shadow-lg transition-transform duration-300 hover:scale-110"
+        aria-label="Chat on WhatsApp"
+      >
+        💬
+      </a>
+      <Footer />
     </BrowserRouter>
   );
 }

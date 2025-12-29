@@ -43,8 +43,9 @@ export default function Contact() {
             <div>
               <p className="font-semibold">Address</p>
               <p>
-                Shop No - 19, LG <br />
-                Noida Sector 76
+                Shop- LG-19, Commercial Complex, Street 76, <br />
+                Amarpali Silicon City, Sector 76, Noida, <br/>
+                Uttar Pradesh 201316
               </p>
             </div>
           </div>
@@ -65,7 +66,7 @@ export default function Contact() {
             <input
               type="hidden"
               name="access_key"
-              value="4c31e106-ed27-43ec-9811-03a496832d22"
+              value="51d7e4e3-7835-423c-8bea-2c5da85fe471"
             />
 
             {/* Redirect optional */}

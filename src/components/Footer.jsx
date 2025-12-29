@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <footer className="bg-[#1f2933] text-gray-300">
       <div className="max-w-7xl mx-auto px-6 py-14 grid gap-10 md:grid-cols-4">
-
         {/* Brand */}
         <div>
           <h2 className="text-xl font-bold text-white mb-4">
@@ -20,10 +19,26 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm">
-            <li><Link to="/" className="hover:text-pink-500">Home</Link></li>
-            <li><Link to="/about" className="hover:text-pink-500">About Us</Link></li>
-            <li><Link to="/appointment" className="hover:text-pink-500">Book Appointment</Link></li>
-            <li><Link to="/contact" className="hover:text-pink-500">Contact Us</Link></li>
+            <li>
+              <Link to="/" className="hover:text-pink-500">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="hover:text-pink-500">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/appointment" className="hover:text-pink-500">
+                Book Appointment
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="hover:text-pink-500">
+                Contact Us
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -43,14 +58,22 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-4">Contact</h3>
           <ul className="space-y-2 text-sm">
-            <li>📍 Shop No - 19, LG, Noida Sector 76</li>
             <li>
-              📞 <a href="tel:9217068916" className="hover:text-pink-500">
+              📍 Shop- LG-19, Commercial Complex, Street 76, Amarpali Silicon
+              City, Sector 76, Noida, Uttar Pradesh 201316
+            </li>
+            <li>
+              📞{" "}
+              <a href="tel:9217068916" className="hover:text-pink-500">
                 9217068916
               </a>
             </li>
             <li>
-              ✉️ <a href="mailto:rtheaven76@gmail.com" className="hover:text-pink-500">
+              ✉️{" "}
+              <a
+                href="mailto:rtheaven76@gmail.com"
+                className="hover:text-pink-500"
+              >
                 rtheaven76@gmail.com
               </a>
             </li>
